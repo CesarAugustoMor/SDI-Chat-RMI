@@ -1,6 +1,9 @@
 CODIGO VERSAO > 1.8
-javac *.java
+make clean; make
 // Nao e necessario se usar Create.RmiResgirtu
 //rmiregistry 9999&
 java ChatServer
 java ChatClient localhost
+
+
+Código disponivel em: https://github.com/CesarAugustoMor/SDI-Chat-RMI
